@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>PikachuOnet</RootNamespace>
+    <AssemblyName>PikachuOnet</AssemblyName>
+    <ApplicationHighDpiMode>DpiUnaware</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Images\**" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Audio\**" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="Data\**" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
